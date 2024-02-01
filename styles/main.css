@@ -1,0 +1,71 @@
+body {
+    font-size: 18px;
+    line-height: 1.25em;
+}
+
+.hero {
+    background-image: url("../img/kaboom.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 2px solid black;
+    
+}
+
+.header__container {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    width: 720px;
+}
+
+.first, .second {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+    
+}
+
+.header__container h1 {
+    font-size: 4.9rem;
+}
+
+.first h1 {
+    font-family: ccbiffbamboom, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.first .the {
+    color: #ffcc33;
+}
+
+.first .dynamite {
+    color: #fe9832;
+}
+
+.first .duo {
+    color: #ffff99;
+}
+
+.second h1 {
+    font-family: ccbiffbamboomOutline, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+#container {
+    font-family: ccmeanwhile, sans-serif;
+}
+
+#container h1 {
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(8, 8, 112)
+}
+
+#container ul li {
+    font-weight: 400;
+    margin-bottom: 1em;
+}
